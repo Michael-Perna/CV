@@ -1,0 +1,93 @@
+\documentclass[]{curriculum}
+
+% PACKAGES
+%\usepackage{showframe}  % Show page frame
+%\usepackage{layout}     % Show first page layout structure
+\usepackage[skins]{tcolorbox}
+\usepackage{hyperref}
+
+\graphicspath{./Images/PHOTOSHOOTING/}
+
+% DOCUMENT
+\begin{document}%\layout
+
+  \header{Name}
+          {Surname}
+          {name.surname@email.com}
+          {012 345 67 89}
+          {\href{https://github.com/}{github.com/Name-Surname}}
+          {\href{https://www.linkedin.com}{LinkedIn Profile}}
+          {./Images/IMG_1303}
+
+  \vspace{-10mm}
+  \strenghts{0.45\linewidth}
+            {ETH Environmental Engineering}
+            {Specilized in geomatics}
+            {Passionated programmer}
+
+  \section{Education}
+
+  \school[Monitoring and Modeling of the Environment]{09/2019}
+          {09/2021}
+          {Master of Science MSc, EPFL, Environmental Engineering}
+  %
+  \school[Erasmus, TUM München, third year (10/2017 - 08/2018)]
+          {09/2019}
+          {09/2021}
+          {Bachelor of science BSc, EPFL, Environmental Engineering}
+  %
+  \school {09/2009}
+          {09/2009}
+          {Scientific high school, Lilu2 Savosa (Ticino)}
+
+  \section{Experience}
+
+  \work{10/2020}
+        {12/2021}
+        {Internship at the Federal Office of Topography swisstopo (70\%)}
+        {Conception and developpement of a benchsystem for the study of GNSS positioning (RTK and PPP-RTK) for autonomous veichle navigation purpose. My work has enabeled swisstopo to acquire new knowledges on this topic and to establish contacts with other Swiss players in the field of autonomous vehicles}
+
+  \section{Technical Skills}
+
+  \competence{GNSS Positioning}
+              {Signal acquisition and tracking, orbit calculation, carrier-phase cycle ambiguities determination, errors models, INS/GNSS integration and reliability, Kalmant filters.}
+
+  \competence{GNSS Instruments, Protocols and Standardt}
+              {I worked with u-blox and Trimble receivers, NMEA and UBX messages, NTRIP and RTCM protocols (I coded a NTRIP-Client for the stream of swipos correction to an u-blox ZED-F9P receiver).}
+
+  \competence{Programming Languqges, Frameworks and Tools}
+              {Matlab, Python, basic knowledges in C/C++, HTML/CSS and javascript, Linux, Windows, QGIS/ArcGis.}
+
+  \section{Project}
+
+  \competence{Master's project in-company at swisstopo}
+              {I developed an automatic system for the collection of GNSS data from three receivers on board of a moving tram through a Raspberry Pi. The analysis of the streamed data has allowed to study the swipos (RTK) et SAPA Premium (PPP-RTK) GNSS correction system and the Trimble NetR9 and u-blox ZED-F9P receivers.}
+
+  \section{Award}
+  \award{swisstopoEDU (1000.-)}
+        {Award that recognize Master thesis with practical application in the area of swisstopo activities.}
+
+
+  \AddTopMargin
+  \section{Languages}
+
+  \tongue{Italian}
+          {Mother tongue}
+  \tongue{French}
+          {Mother tongue}
+  \tongue[Stay of 6 months between Canada and USA (2014).]
+          {English}
+          {B2 Level}
+  \tongue[12 months Erasmus in München (2017-2018).]
+          {German}
+          {B1+ Level}
+
+
+  \section{Personal Data}
+
+  \personaldata{Age}
+                {27 years}
+  \personaldata{Nationality}
+                {Swiss, French and Italian}
+
+\end{document}
